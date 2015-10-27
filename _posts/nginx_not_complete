@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "NginX - Configuare Web Server"
+date:   2015-10-01 05:31:00
+categories: Git
+---
+
+이 게시글은 어떻게 웹 서버에 NginX를 설정하는지 나와있다. 아래와 같은 항목이 포함되어있다.
+
+1. Setting up Virtual Servers
+2. Configuaring Locations
+3. Using Variables
+4. Returning Specific Status Codes
+5. Rewriting URIs in Requests
+6. Handling Errors
+

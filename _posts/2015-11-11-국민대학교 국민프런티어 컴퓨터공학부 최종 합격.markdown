@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "국민대학교 국민프런티어 컴퓨터공학부 최종 합격"
+date:   2015-11-11 08:40:00
+categories: 수시
+---
+
+![](https://raw.githubusercontent.com/DainelPark/dainelpark.github.io/master/images/kookmin_final_step_passed.png)
+
+국민대학교 국민프런티어 전형(학생부종합 전형) 컴퓨터 공학부에 **최종 합격**하였다.
+
+좋은 결과를 내도록 응원해주신 분들께 진심으로 감사하다.

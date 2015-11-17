@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "RabbitMQ - Worker (1)"
+date:   2015-11-16 20:40:00
+categories: rabbitmq, python
+---
+
+최근에 RabbitMQ를 이용하여 Worker를 작성해야할 일이 있어서 공부하게 되었다. 이번에 작성할 Worker의 역할의 예는 다음과 같다.
+
+우리가 어느 페이지를 볼 때 조회 수를 추가하는 것은 당연한 로직이다. 하지만 매 번 조회할 때마다 DB 서버에 조회하여 수정하는 일은 매우 비효율적이다. 또한 과도한 중복 조회를 방지할 길이 없다. 그래서 큐에 메시지를 담아놓고 일정 주기마다 DB에 접근을 하도록 할 것이다. 이 주기동안 큐에 쌓인 메시지의 중복에 따라 규칙을 세워 과도한 중복 조회도 방지할 수 있다.
+
+개발 환경은 Mac OS X이며 Homebrew가 있어야하고 Python 3.4 그리고 pika 모듈을 사용한다.
+
+## Install RabbitMQ with Homebrew
+
+터미널에 아래와 같이 타이핑을 하면 설치가 된다.
+	
+	brew install rabbitmq
+	
+설치가 된 후 환경 변수를 설정해주어야한다. `/usr/local/sbin`의 경로에 설치가 되는데 `vim ~/.bash_profile`을 이용하여 설정해주도록 한다.
+
+	PATH=$PATH:/usr/local/sbin
+
+위의 구문을 추가하고서 `:wq`를 이용하여 저장하면 된다. 터미널을 껐다가 키는 것이 귀찮다면 `source ~/.bash_profile`을 해주자.
+
+	rabbitmq-server start
+	
+위의 명령어를 통하여 RabbitMQ 서버를 동작시킨다. 이렇게 하면 로컬호스트의 기본 포트로 동작한다. 정지는 `rabbitmq-server stop`으로 한다.
+
+## Hello World - Sender & Receiver
+
+큐에 메시지를 보내는 코드를 작성해볼 것이다.
+
+	__author__ = 'eunhwanpark'
+
+	import pika
+
+	
+	# 로컬의 기본 포트에 연결하도록 한다.
+	connection = pika.BlockingConnection()
+	channel = connection.channel()
+
+	# 채널의 큐를 선언한다.
+	channel.queue_declare(queue='tutorial')
+
+	# 큐에 메시지를 보낸다.
+	channel.basic_publish(exchange='',
+                      routing_key='tutorial',
+                      body="Hello World")
+
+	# 출력해줌으로서 메시지를 보내줬음을 알려준다.
+	print("Hello World")
+
+	# Connection을 닫는다.
+	connection.close()
+	
+`connection.close()`를 작성하지 않으면 connection이 유지되기 때문에 반드시 close()을 해야한다.
+
+큐에 쌓여진 메시지를 가져오는 코드이다.
+
+	__author__ = 'eunhwanpark'
+
+	import pika
+
+	# 로컬의 기본 포트에 연결하도록 한다.
+	connection = pika.BlockingConnection()
+	channel = connection.channel()
+
+	# 채널의 큐를 선언한다.
+	channel.queue_declare(queue='tutorial')
+
+	# http://pika.readthedocs.org/en/latest/modules/channel.html의 callback 함수의 구성 요소를 확인하면 좋다.
+	def callback(ch, method, properties, body):
+    	print(body)
+
+	channel.basic_consume(callback,
+                      queue='tutorial',
+                      no_ack=True)
+
+	# 가져오기를 시작한다.
+	channel.start_consuming()
+	
+이렇게 하면 성공적으로 메시지를 보내고, 쌓여있는 메시지를 가져올 수 있다. 하지만 이런 방식의 경우 분산 처리하기는 힘들다. Work Queues라는 방식으로 해결할 수 있다. **Round-Robin 방식**으로 동작하는데 아직 안해보았으니 기술하기가 어렵다. 더 공부해보자.

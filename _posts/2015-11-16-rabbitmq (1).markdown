@@ -2,6 +2,7 @@
 layout: post
 title:  "RabbitMQ - Worker (1)"
 date:   2015-11-16 20:40:00
+summary: RabbitMQ를 이용한 Worker 작성 (1)
 categories: rabbitmq, python
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "SDN Network (1) - Mininet"
 date:   2015-09-28 04:19:32
+summary: SDN 네트워크에 대하여
 categories: SDN
 ---
 

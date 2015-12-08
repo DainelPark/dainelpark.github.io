@@ -2,6 +2,7 @@
 layout: post
 title:  "The Meaning of life"
 date:   2015-09-29 03:40:00
+summary: 삶의 의미란 무엇인가?
 categories: TheMeaningOfLife
 ---
 

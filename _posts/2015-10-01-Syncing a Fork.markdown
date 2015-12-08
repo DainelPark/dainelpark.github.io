@@ -2,6 +2,7 @@
 layout: post
 title:  "Syncing a fork"
 date:   2015-10-01 05:31:00
+summary: Git을 이용하여 Fork를 동기화해본다.
 categories: Git
 ---
 

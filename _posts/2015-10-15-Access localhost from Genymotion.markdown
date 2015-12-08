@@ -2,6 +2,7 @@
 layout: post
 title:  "Access localhost from Genymotion"
 date:   2015-10-15 06:49:00
+summary: 가상 머신에서의 127.0.0.1에 대하여
 categories: Android
 ---
 

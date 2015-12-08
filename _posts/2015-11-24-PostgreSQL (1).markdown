@@ -7,9 +7,9 @@ categories: postgresql
 
 **이 글은 PostgreSQL의 공식 문서를 보면서 제 방식대로 정리한 글입니다. 혹시 문제가 있다면 Pull Request를 부탁드립니다. 원문 글은 [PostgreSQL Documentaion](http://www.postgresql.org/docs/9.4/static/)입니다.**
 
-##1.1 Installation
+##2.1 SQL Language Introduction
 
-PostgreSQL을 사용하시기 전에 당연하게도 설치를 해야합니다. 이는 사용하시는 OS 별로 나누어집니다. 필자는 **homebrew**를 이용하여 설치하였습니다. 
+이번 장에서는 간단한 명령어들을 이용하여 어떻게 SQL을 사용하는지 **Overview**를 보여줄 것입니다. 이번
 
 ##1.2 Architectural Fundamentals
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "국민대학교 국민프런티어 컴퓨터공학부 면접 후기"
 date:   2015-10-16 15:20:00
+summary: 긴장감있던 국민대학교 면접 후기
 categories: 수시
 ---
 

@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "안드로이드에서 람다식 사용하기"
+date:   2016-01-28 03:40:00
+summary: 람다식에 빠져보자.
+---
+
+2016년 1월 28일 새벽 3시. 이 글을 쓰는 시점에서, 안드로이드는 JDK 7을 사용하고 있다. 그로 인하여 JDK 8의 엄청난 혜택을 보지 못하고 있는 실정이다.
+
+사실상 ***같은 상황**인 것이다. 그 와중에 빛과 소금처럼 구원의 손 길이 비추어졌으니 그것은 바로 **RetroLambda**이다. 하위 버전의 자바 런타임에서 동작할 수 있도록 JDK 8로 컴파일된 바이트 코드를 변환하는 방식이다. 이것만 해도 어딘가?
+
+방법은 꽤나 간단하다.
+
+### 1. build.gradle
+
+	dependencies {
+		classpath 'me.tatarka:gradle-retrolambda:3.2.3'
+	}
+	
+build.gradle의 dependencies에 classpath를 추가한다.
+
+### 2.app/build.gradle
+
+	apply plugin: 'me.tatarka.retrolambda'
+
+	android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    
+app/build.gradle에 다음과 같이 추가한다.
+
+
+### Before & After
+
+	mGpsEnable.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // do something
+                }
+            });
+
+위의 모습은 람다식을 적용하기 전이다. 이제 후를 보자.
+
+	mGpsEnable.setOnClickListener((v) -> {
+	// do something
+	});
+	
+적용을 하면 이렇게 코드 라인이 줄어든다. **RxJava**와 람다식을 같이 쓰면 더 좋은 코드를 작성할 수 있다.
+
+JDK 8의 Stream API 또한 따로 포팅된 것이 있어 쓰고는 싶지만, 아직 경험도 없을 뿐더러 더군더나 웹 사이트도 없는 걸 보면 쓰면 안 될 것같다. -_-;;;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Retrofit X RxJava를 이용한 네트워크 통신"
+title:  "Retrofit x RxJava를 이용한 네트워크 통신"
 date:   2016-02-04 12:10:00
 summary: Retrofit X RxJava
 ---

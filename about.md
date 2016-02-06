@@ -10,9 +10,11 @@ permalink: /about/
 
 topbladep@gmail.com
 
+- Cinnamon Studio
+	- Software Engineer
 - SW 마에스트로 6기 연수생
 - 국립한밭대학교 컴퓨터공학과 15학번 **자퇴**
-- 국민대학교 컴퓨터공학부 16학번 **재학 예정**
+- 국민대학교 컴퓨터공학부 16학번 **재학**
 
 ---
 

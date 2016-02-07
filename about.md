@@ -8,7 +8,7 @@ permalink: /about/
 
 박은환 (Dainel Park)
 
-topbladep@gmail.com
+dainel@cinnamon.studio
 
 - Cinnamon Studio
 	- Software Engineer

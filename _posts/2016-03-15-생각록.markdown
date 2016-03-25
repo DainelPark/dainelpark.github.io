@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "생각록 - (1)"
-date:   2016-03-15 17:00:00
+date:   2016-03-20 17:00:00
 summary: 생각록
 categories: 생각
 ---

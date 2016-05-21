@@ -1,7 +1,7 @@
 # Site settings
 title: Dainel Geek
 email: topbladep@gmail.com
-description: > Dainel Geek's Blog
+description: Dainel Geek's Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dainelpark.github.io" # the base hostname & protocol for your site
 twitter_username: username

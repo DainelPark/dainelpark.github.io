@@ -23,7 +23,7 @@ description: Dainel Geek's Blog
 	- 제 스스로 부족함을 많이 느낍니다. 그래서 다양한 분야의 컨퍼런스에 참여하여 다양한 기술들을 경험합니다. 그리고 저에게 유용하다고 생각되는 기술은 직접 사용해보기도 합니다.
 - **보유 기술**
 	- Front-End : Android
-	- Back-End : Python (Flask), JavaScript(Node.js)
+	- Back-End : Python (Flask), JavaScript(Node.js), Java (Spring Boot)
 	- Database : MongoDB, SQL
 - **지금까지 해왔던 프로젝트**
 	1. SW 마에스트로 프로젝트
@@ -35,5 +35,9 @@ description: Dainel Geek's Blog
 	3. 어디서든 T&R TOEIC SPECKING
 		- 고등학교 재학 시절 (주) 스카이래더의 인턴으로 지내면서 **Android 앱 개발**에 참여하였습니다. 
 	4. 손 안의 인터랙티브 책방, PandaFlip
-		- 판다플립 베타 버전의 Android 앱 개발에 참여하였습니다. 
-	5. 삼성 SW 멤버십 25-2기 기술전형 합격 
+		- 판다플립 베타 버전의 **Android 앱 개발**에 참여하였습니다. 
+	5. No Forget - 제 1회 Hack Korea 해커톤 1등
+		- 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스입니다.
+		- 저는 Java와 Spring Boot를 이용한 서버 개발로 참여하였습니다.
+		- [오마이뉴스 기사 링크]( 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스인 '노 포겟(No Forget)')
+	6. 삼성 SW 멤버십 25-2기 기술전형 합격 

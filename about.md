@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
+description: Dainel Geek's Blog
 ---
 
 ![](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/13240476_1721195938168538_9024130579293512854_n.jpg?oh=7c013bf44b0ac5680eb76c3c43358c1f&oe=579E37CC)

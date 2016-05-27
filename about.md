@@ -39,5 +39,5 @@ description: Dainel Geek's Blog
 	5. No Forget - 제 1회 Hack Korea 해커톤 1등
 		- 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스입니다.
 		- 저는 **Java와 Spring Boot를 이용한 서버 개발**로 참여하였습니다.
-		- [오마이뉴스 기사 링크]( 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스인 '노 포겟(No Forget)')
+		- [오마이뉴스 기사 링크](http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002170007&CMPT_CD=SEARCH)
 	6. 삼성 SW 멤버십 25-2기 기술전형 합격 

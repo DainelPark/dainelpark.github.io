@@ -42,3 +42,6 @@ description: Dainel Geek's Blog
 		- 저는 **Java와 Spring Boot를 이용한 서버 개발**로 참여하였습니다.
 		- [오마이뉴스 기사 링크](http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002170007&CMPT_CD=SEARCH)
 	6. 삼성 SW 멤버십 25-2기 기술전형 합격 
+	7. Plating
+		- 결제 프로세스 서버 개발
+			- Node.js를 이용하여 진행되었습니다.

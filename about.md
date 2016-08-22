@@ -45,3 +45,6 @@ description: Dainel Geek's Blog
 	7. Plating
 		- 결제 프로세스 서버 개발
 			- Node.js를 이용하여 진행되었습니다.
+		- 운영 팀 도구 개선
+		- CJ 홀로그램 API 개발
+		

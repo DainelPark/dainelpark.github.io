@@ -46,5 +46,5 @@ description: Dainel Geek's Blog
 		- 결제 프로세스 서버 개발
 			- Node.js를 이용하여 진행되었습니다.
 		- 운영 팀 도구 개선
-		- CJ 홀로그램 API 개발
-		
+		- CJ 홀로그램
+			- CJ 측과 제휴를 맺어 API를 개발하여 제공하였습니다.

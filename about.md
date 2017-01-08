@@ -27,26 +27,28 @@ description: Dainel Geek's Blog
 	- Back-End : Python (Flask), JavaScript(Node.js), Java (Spring Boot)
 	- Database : MongoDB, SQL
 - **지금까지 해왔던 프로젝트**
-	1. SW 마에스트로 프로젝트
-		- SW 마에스트로 6기에서 1차 프로젝트로 Crash Report Service를 진행하였습니다. 
-저는 **UrQA의 Node.js 용 모듈을 개발하여 MIT 라이센스**로 배포하였습니다. 그리고 **정지하지 않는 서버(Fault-Tolerance Pattern)**에 대하여 공부하였습니다. 1차 프로젝트의 멘토님은 손영수 멘토님이셨습니다.
-	2. 제 3회 고려대학교 창업경진대회 우수상 - 문라이트
-		- 가끔 SNS에 글을 올려놓고 다음 날이면 왜 올렸나하고 후회를 하곤 합니다. 그래서 그 날 밤 글을 작성하면 다음 날이면 사라지는 휘발성 SNS 문라이트를 개발하였습니다. 
-저는 여기서 **기존의 PHP 서버 유지 보수 및 Node.js 서버 그리고 Android 앱 개발**을 맡아서 진행했습니다.
-	3. 어디서든 T&R TOEIC SPECKING
-		- 고등학교 재학 시절 (주) 스카이래더의 인턴으로 지내면서 **Android 앱 개발**에 참여하였습니다. 
-	4. 손 안의 인터랙티브 책방, PandaFlip
-		- 판다플립 베타 버전의 **Android 앱 개발**에 참여하였습니다. 
-	5. No Forget - 제 1회 Hack Korea 해커톤 1등
-		- 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스입니다.
-		- 저는 **Java와 Spring Boot를 이용한 서버 개발**로 참여하였습니다.
-		- [오마이뉴스 기사 링크](http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002170007&CMPT_CD=SEARCH)
-	6. 삼성 SW 멤버십 25-2기 기술전형 합격 
-	7. Plating
+	1. Plating
 		- 결제 프로세스 서버 개발
 			- Node.js를 이용하여 진행되었습니다.
 		- 운영 팀 도구 개선
 		- CJ 홀로그램
 			- CJ 측과 제휴를 맺어 API를 개발하여 제공하였습니다.
-	- 플레이팅 점심 서비스
-		- 안드로이드 클라이언트의 플레이팅의 점심 서비스를 개발하였습니다.
+		- 플레이팅 점심 서비스
+			- 안드로이드 클라이언트의 플레이팅의 점심 서비스를 개발하였습니다.
+		- Plating 1.5 개발
+			- Node.js + GraphQL + API Server 개발 중
+	2. SW 마에스트로 프로젝트
+		- SW 마에스트로 6기에서 1차 프로젝트로 Crash Report Service를 진행하였습니다. 
+저는 **UrQA의 Node.js 용 모듈을 개발하여 MIT 라이센스**로 배포하였습니다. 그리고 **정지하지 않는 서버(Fault-Tolerance Pattern)**에 대하여 공부하였습니다. 1차 프로젝트의 멘토님은 손영수 멘토님이셨습니다.
+	3. 삼성 SW 멤버십 25-2기 기술전형 합격
+	4. No Forget - 제 1회 Hack Korea 해커톤 1등
+		- 잊혀서는 안 되는 사건이나 인물의 정보를 지속해서 상기시켜 주는 서비스입니다.
+		- 저는 **Java와 Spring Boot를 이용한 서버 개발**로 참여하였습니다.
+		- [오마이뉴스 기사 링크](http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002170007&CMPT_CD=SEARCH)
+	5. 제 3회 고려대학교 창업경진대회 우수상 - 문라이트
+		- 가끔 SNS에 글을 올려놓고 다음 날이면 왜 올렸나하고 후회를 하곤 합니다. 그래서 그 날 밤 글을 작성하면 다음 날이면 사라지는 휘발성 SNS 문라이트를 개발하였습니다. 
+저는 여기서 **기존의 PHP 서버 유지 보수 및 Node.js 서버 그리고 Android 앱 개발**을 맡아서 진행했습니다.
+	6. 어디서든 T&R TOEIC SPECKING
+		- 고등학교 재학 시절 (주) 스카이래더의 인턴으로 지내면서 **Android 앱 개발**에 참여하였습니다. 
+	7. 손 안의 인터랙티브 책방, PandaFlip
+		- 판다플립 베타 버전의 **Android 앱 개발**에 참여하였습니다. 

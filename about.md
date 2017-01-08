@@ -5,7 +5,7 @@ permalink: /about/
 description: Dainel Geek's Blog
 ---
 
-![](https://github.com/DainelPark/dainelpark.github.io/blob/master/images/profile_image_.jpg?raw=true)
+![](https://github.com/DainelPark/dainelpark.github.io/blob/master/images/profile_img.jpeg?raw=true)
 
 * Dainel Park (박은환)
 * 서울

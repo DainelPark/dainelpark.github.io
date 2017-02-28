@@ -1,9 +1,0 @@
----
-layout: post
-title:  "JRebel for Android 라이센스 만료"
-date:   2016-02-04 12:10:00
-summary: 신은 왜 나에게 이런 시련을 주시는 것인가?
----
-![](https://raw.githubusercontent.com/DainelPark/dainelpark.github.io/master/images/ohmygodallmighty.png)
-
-물론 신은 믿지 않지만 존재한다면 왜 나에게 이러한 시련을 주시는 것인가? 안드로이드 개발에서 **1.5x ~ 2.0x**의 효과를 내게 해주는 이 녀석의 라이센스가 끝났다. 생각하면 할수록 Social Plan이 JRebel for Android에는 적용되지 않는다는 것에 대하여 깊이 좌절한다.

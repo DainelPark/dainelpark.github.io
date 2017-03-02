@@ -5,9 +5,7 @@ permalink: /about/
 description: Dainel Geek's Blog
 ---
 
-![](https://github.com/DainelPark/dainelpark.github.io/blob/master/images/profile_img.jpeg?raw=true)
-
-* Dainel Park (박은환)
+* 박은환
 * 서울
 * Software Engineer
 * topbladep@gmail.com

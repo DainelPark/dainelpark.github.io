@@ -5,9 +5,7 @@ permalink: /about/
 description: Dainel Geek's Blog
 ---
 
-![](https://github.com/DainelPark/dainelpark.github.io/blob/master/images/profile_img.jpeg?raw=true)
-
-* Dainel Park (박은환)
+* 박은환
 * 서울
 * Software Engineer
 * topbladep@gmail.com
@@ -40,7 +38,7 @@ description: Dainel Geek's Blog
        - Node.js + GraphQL + API Server 개발 중
      - 플레이팅 물류 개선
        - 기존의 축적된 데이터를 바탕으로 최적의 cost 를 찾는 것에 목적을 가짐
-         - Pythoni
+         - Python
   2. SW 마에스트로 프로젝트
      - SW 마에스트로 6기에서 1차 프로젝트로 Crash Report Service를 진행하였습니다. 
        저는 **UrQA의 Node.js 용 모듈을 개발하여 MIT 라이센스**로 배포하였습니다. 그리고 **정지하지 않는 서버(Fault-Tolerance Pattern)**에 대하여 공부하였습니다. 1차 프로젝트의 멘토님은 손영수 멘토님이셨습니다.

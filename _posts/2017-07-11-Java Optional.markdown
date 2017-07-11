@@ -26,6 +26,7 @@ Optional 을 사용하면서 얻을 수 있는 장점은 다음과 같다.
 
 Optional 객체의 아이디어는 레퍼런스를 한 번 감싸는 객체를 만들어 Null 체크를 내부로 숨긴 것이다. 즉, 이 객체를 사용하는 외부의 코드에서는 Null 체크를 할 필요가 없어진 것이다. 근본적으론 여전히 Null 체크를 하는 것이다.
 
+```{.java}
 	public final class Optional<T> {
 		/**
      	* Common instance for {@code empty()}.
@@ -64,24 +65,29 @@ Optional 객체의 아이디어는 레퍼런스를 한 번 감싸는 객체를 �
     	}
     	...
 	}
-	
+```
+
 Optional 객체의 `get()`에서 볼 수 있듯이  null 체크를 내부적으로 하고 있다.
 
 ### 2. 코드
 
 기본적인 사용 방법은 다음과 같다.
 
+```{.java}
 	Optional<String> hello = Optional.of("Hello, World!");
 	System.out.println(hello);
 	
 	Run -> Optional[Hello, World!]
+```
 	
 실행 결과로는 Optional 객체가 Hello, World! 를 Wrapped 한 채로 나온다. 결과값을 그대로 가져오기 위해서는 `get()` 을 사용하면 된다.
 
 위의 예제에서는 `of()` 를 사용했지만 `ofNullable()` 을 사용하는 것이 더 유연한 선택일지도 모르겠다. 그 이유로는 전자의 경우 null 일 경우 NPE 를 발생시킨다. 하지만 후자를 사용할 경우 `Optional.empty`를 반환한다. 
 
+```{.java}
 	Optional.of(null);
 	Optional.ofNullable(null);
+```
 	
 위 코드를 실행해보면 각각의 차이가 분명이 나타난다.
 

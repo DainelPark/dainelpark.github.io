@@ -1,9 +1,9 @@
 # Site settings
-title: Dainel Geek
-email: topbladep@gmail.com
-description: Dainel Geek's Blog
+title: Park Jude
+email: park.jude.96@gmail.com
+description: Park Jude Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dainelpark.github.io" # the base hostname & protocol for your site
+url: "http://parkjude.github.io" # the base hostname & protocol for your site
 twitter_username: username
 github_username: username
 
